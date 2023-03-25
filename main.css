@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #d6e1ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  background-color: white;
+  display: flex;
+
+  flex-direction: column;
+  align-items: stretch;
+  width: 327px;
+  height: 567px;
+  border-radius: 20px;
+}
+h1 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+  margin-top: 20.58px;
+
+  margin-bottom: 16px;
+}
+.grdzeli {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  text-align: center;
+  color: #717fa6;
+
+  margin-bottom: 24px;
+}
+
+.incontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  background: rgba(247, 249, 255, 1);
+  width: 100%;
+  padding: 16px;
+  border-radius: 11px;
+}
+.annualfasi {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  margin-bottom: 3px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  color: #1f2e55;
+}
+.fasi {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #717fa6;
+}
+.change {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17px;
+  text-decoration-line: underline;
+  color: #382ae1;
+}
+.change:hover{
+  cursor: pointer;
+  color: #766CF1;
+}
+.process {
+  width: 279px;
+  height: 50px;
+  background: #382ae1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.process:hover{
+  cursor: pointer;
+  background: #766CF1;
+}
+h3 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+}
+h4 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+h4:hover{
+  cursor: pointer;
+  color: #1F2E55;
+}
+.contentdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.musicprice {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
